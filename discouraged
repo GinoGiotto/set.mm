@@ -11871,7 +11871,7 @@
 "sb6ALT" is used by "sb5ALT2".
 "sb6fALT" is used by "sb5fALT".
 "sb7fALT" is used by "dfsb7ALT".
-"sbalOLDOLD" is used by "sbalOLD".
+"sbal1" is used by "sbalOLD".
 "sbanALT" is used by "sbbiALT".
 "sbanvOLD" is used by "sbbivOLD".
 "sbbiALT" is used by "sblbisALT".
@@ -17530,7 +17530,7 @@ New usage of "sb6ALT" is discouraged (1 uses).
 New usage of "sb6OLD" is discouraged (0 uses).
 New usage of "sb6fALT" is discouraged (1 uses).
 New usage of "sb7fALT" is discouraged (1 uses).
-New usage of "sbalOLDOLD" is discouraged (1 uses).
+New usage of "sbal1" is discouraged (1 uses).
 New usage of "sbal2OLD" is discouraged (0 uses).
 New usage of "sbal2OLDOLD" is discouraged (0 uses).
 New usage of "sbalOLD" is discouraged (0 uses).
@@ -19626,7 +19626,7 @@ Proof modification of "sb6ALT" is discouraged (21 steps).
 Proof modification of "sb6OLD" is discouraged (20 steps).
 Proof modification of "sb6fALT" is discouraged (49 steps).
 Proof modification of "sb7fALT" is discouraged (68 steps).
-Proof modification of "sbalOLDOLD" is discouraged (149 steps).
+Proof modification of "sbal1" is discouraged (149 steps).
 Proof modification of "sbal2OLD" is discouraged (157 steps).
 Proof modification of "sbal2OLDOLD" is discouraged (157 steps).
 Proof modification of "sbalOLD" is discouraged (49 steps).
