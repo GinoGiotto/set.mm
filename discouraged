@@ -1975,7 +1975,7 @@
 "bnj133" is used by "bnj1514".
 "bnj133" is used by "bnj983".
 "bnj133" is used by "bnj984".
-"bnj133" is used by "bnj985".
+"bnj133" is used by "bnj1450".
 "bnj1340" is used by "bnj1450".
 "bnj1345" is used by "bnj1379".
 "bnj1345" is used by "bnj1521".
@@ -2559,6 +2559,7 @@
 "bnj918" is used by "bnj929".
 "bnj918" is used by "bnj965".
 "bnj918" is used by "bnj985".
+"bnj918" is used by "bnj985w".
 "bnj918" is used by "bnj999".
 "bnj919" is used by "bnj907".
 "bnj919" is used by "bnj910".
@@ -2669,7 +2670,7 @@
 "bnj982" is used by "bnj1445".
 "bnj983" is used by "bnj1033".
 "bnj984" is used by "bnj985".
-"bnj985" is used by "bnj1018".
+"bnj984" is used by "bnj985w".
 "bnj986" is used by "bnj996".
 "bnj996" is used by "bnj1021".
 "bnj998" is used by "bnj1020".
@@ -2778,6 +2779,7 @@
 "c-bnj14" is used by "bnj1445".
 "c-bnj14" is used by "bnj1446".
 "c-bnj14" is used by "bnj1447".
+"c-bnj14" is used by "bnj1447w".
 "c-bnj14" is used by "bnj1448".
 "c-bnj14" is used by "bnj1450".
 "c-bnj14" is used by "bnj1452".
@@ -7840,12 +7842,9 @@
 "idi" is used by "dvnprodlem1".
 "idi" is used by "fprodcnlem".
 "idi" is used by "imo72b2lem0".
-"idi" is used by "limsupvaluz2".
 "idi" is used by "madjusmdetlem2".
 "idi" is used by "rngcifuestrc".
 "idi" is used by "sge0f1o".
-"idi" is used by "smfinfmpt".
-"idi" is used by "smfsupmpt".
 "idi" is used by "ssmapsn".
 "idiALT" is used by "ax6e2nd".
 "idiALT" is used by "ax6e2ndALT".
@@ -13774,7 +13773,7 @@ New usage of "bnj132" is discouraged (1 uses).
 New usage of "bnj1321" is discouraged (1 uses).
 New usage of "bnj1322" is discouraged (1 uses).
 New usage of "bnj1326" is discouraged (2 uses).
-New usage of "bnj133" is discouraged (6 uses).
+New usage of "bnj133" is discouraged (7 uses).
 New usage of "bnj1340" is discouraged (1 uses).
 New usage of "bnj1345" is discouraged (2 uses).
 New usage of "bnj1350" is discouraged (2 uses).
@@ -13813,7 +13812,7 @@ New usage of "bnj1442" is discouraged (1 uses).
 New usage of "bnj1444" is discouraged (1 uses).
 New usage of "bnj1445" is discouraged (1 uses).
 New usage of "bnj1446" is discouraged (2 uses).
-New usage of "bnj1447" is discouraged (1 uses).
+New usage of "bnj1447" is discouraged (0 uses).
 New usage of "bnj1448" is discouraged (2 uses).
 New usage of "bnj1449" is discouraged (1 uses).
 New usage of "bnj1450" is discouraged (1 uses).
@@ -13983,7 +13982,7 @@ New usage of "bnj910" is discouraged (1 uses).
 New usage of "bnj911" is discouraged (2 uses).
 New usage of "bnj916" is discouraged (1 uses).
 New usage of "bnj917" is discouraged (2 uses).
-New usage of "bnj918" is discouraged (8 uses).
+New usage of "bnj918" is discouraged (9 uses).
 New usage of "bnj919" is discouraged (3 uses).
 New usage of "bnj92" is discouraged (2 uses).
 New usage of "bnj923" is discouraged (14 uses).
@@ -14018,8 +14017,8 @@ New usage of "bnj98" is discouraged (1 uses).
 New usage of "bnj981" is discouraged (1 uses).
 New usage of "bnj982" is discouraged (3 uses).
 New usage of "bnj983" is discouraged (1 uses).
-New usage of "bnj984" is discouraged (1 uses).
-New usage of "bnj985" is discouraged (1 uses).
+New usage of "bnj984" is discouraged (2 uses).
+New usage of "bnj985" is discouraged (0 uses).
 New usage of "bnj986" is discouraged (1 uses).
 New usage of "bnj996" is discouraged (1 uses).
 New usage of "bnj998" is discouraged (1 uses).
@@ -14043,7 +14042,7 @@ New usage of "bramul" is discouraged (1 uses).
 New usage of "branmfn" is discouraged (1 uses).
 New usage of "braval" is discouraged (10 uses).
 New usage of "brfi1indALT" is discouraged (0 uses).
-New usage of "c-bnj14" is discouraged (131 uses).
+New usage of "c-bnj14" is discouraged (132 uses).
 New usage of "c-bnj18" is discouraged (58 uses).
 New usage of "c0exALT" is discouraged (0 uses).
 New usage of "cases2ALT" is discouraged (0 uses).
@@ -15777,7 +15776,7 @@ New usage of "idALT" is discouraged (1 uses).
 New usage of "idcnop" is discouraged (2 uses).
 New usage of "iden2" is discouraged (0 uses).
 New usage of "idhmop" is discouraged (6 uses).
-New usage of "idi" is discouraged (11 uses).
+New usage of "idi" is discouraged (8 uses).
 New usage of "idiALT" is discouraged (12 uses).
 New usage of "idiVD" is discouraged (0 uses).
 New usage of "idleop" is discouraged (1 uses).
