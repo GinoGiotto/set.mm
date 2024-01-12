@@ -18041,7 +18041,6 @@ Proof modification of "bj-cbv2hv" is discouraged (67 steps).
 Proof modification of "bj-cbv2v" is discouraged (47 steps).
 Proof modification of "bj-cbv3hv2" is discouraged (10 steps).
 Proof modification of "bj-cbval" is discouraged (42 steps).
-Proof modification of "bj-cbval2v" is discouraged (85 steps).
 Proof modification of "bj-cbval2vv" is discouraged (20 steps).
 Proof modification of "bj-cbvaldv" is discouraged (20 steps).
 Proof modification of "bj-cbvaldvav" is discouraged (22 steps).
@@ -18049,7 +18048,6 @@ Proof modification of "bj-cbvalim" is discouraged (64 steps).
 Proof modification of "bj-cbvalimi" is discouraged (34 steps).
 Proof modification of "bj-cbvalimt" is discouraged (112 steps).
 Proof modification of "bj-cbvex" is discouraged (42 steps).
-Proof modification of "bj-cbvex2v" is discouraged (70 steps).
 Proof modification of "bj-cbvex2vv" is discouraged (20 steps).
 Proof modification of "bj-cbvex4vv" is discouraged (61 steps).
 Proof modification of "bj-cbvexdv" is discouraged (55 steps).
@@ -18082,9 +18080,6 @@ Proof modification of "bj-dfif" is discouraged (39 steps).
 Proof modification of "bj-dfnnf3" is discouraged (34 steps).
 Proof modification of "bj-disj2r" is discouraged (88 steps).
 Proof modification of "bj-disjsn01" is discouraged (18 steps).
-Proof modification of "bj-dral1v" is discouraged (36 steps).
-Proof modification of "bj-drex1v" is discouraged (42 steps).
-Proof modification of "bj-drnf1v" is discouraged (50 steps).
 Proof modification of "bj-drnf2v" is discouraged (10 steps).
 Proof modification of "bj-dtru" is discouraged (146 steps).
 Proof modification of "bj-dtrucor2v" is discouraged (31 steps).
@@ -18312,6 +18307,7 @@ Proof modification of "dmtrclfvRP" is discouraged (46 steps).
 Proof modification of "domepOLD" is discouraged (51 steps).
 Proof modification of "dral1ALT" is discouraged (34 steps).
 Proof modification of "dral2-o" is discouraged (14 steps).
+Proof modification of "drnf1v" is discouraged (50 steps).
 Proof modification of "drnfc1OLD" is discouraged (52 steps).
 Proof modification of "drnfc2" is discouraged (52 steps).
 Proof modification of "dtruALT" is discouraged (79 steps).
