@@ -9530,7 +9530,10 @@
 "nfa1-o" is used by "ax12v2-o".
 "nfa1-o" is used by "axc11n-16".
 "nfabALT" is used by "nfaba1ALT".
+"nfabALT" is used by "nfiinALT".
+"nfabALT" is used by "nfiunALT".
 "nfrexALT" is used by "nfiunALT".
+"nfrexdALT" is used by "nfiundALT".
 "nfrexdALT" is used by "nfrexALT".
 "nfsabALT" is used by "nfabALT".
 "nfsb2ALT" is used by "nfsb4tALT".
@@ -16400,7 +16403,7 @@ New usage of "nelne2OLD" is discouraged (0 uses).
 New usage of "nf5rOLD" is discouraged (0 uses).
 New usage of "nf5riOLD" is discouraged (0 uses).
 New usage of "nfa1-o" is discouraged (4 uses).
-New usage of "nfabALT" is discouraged (1 uses).
+New usage of "nfabALT" is discouraged (3 uses).
 New usage of "nfaba1ALT" is discouraged (0 uses).
 New usage of "nfabd2OLD" is discouraged (0 uses).
 New usage of "nfabdOLD" is discouraged (0 uses).
@@ -16410,9 +16413,10 @@ New usage of "nfequid-o" is discouraged (0 uses).
 New usage of "nfeu1ALT" is discouraged (0 uses).
 New usage of "nfiinALT" is discouraged (0 uses).
 New usage of "nfiunALT" is discouraged (0 uses).
+New usage of "nfiundALT" is discouraged (0 uses).
 New usage of "nfopdALT" is discouraged (0 uses).
 New usage of "nfrexALT" is discouraged (1 uses).
-New usage of "nfrexdALT" is discouraged (1 uses).
+New usage of "nfrexdALT" is discouraged (2 uses).
 New usage of "nfsab1OLD" is discouraged (0 uses).
 New usage of "nfsabALT" is discouraged (1 uses).
 New usage of "nfsb2ALT" is discouraged (1 uses).
@@ -19002,6 +19006,7 @@ Proof modification of "nfequid-o" is discouraged (8 steps).
 Proof modification of "nfeu1ALT" is discouraged (25 steps).
 Proof modification of "nfiinALT" is discouraged (35 steps).
 Proof modification of "nfiunALT" is discouraged (35 steps).
+Proof modification of "nfiundALT" is discouraged (43 steps).
 Proof modification of "nfopdALT" is discouraged (70 steps).
 Proof modification of "nfrexALT" is discouraged (27 steps).
 Proof modification of "nfrexdALT" is discouraged (34 steps).
