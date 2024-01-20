@@ -6345,7 +6345,6 @@
 "hba1-o" is used by "dvelimf-o".
 "hba1-o" is used by "nfa1-o".
 "hbabALT" is used by "bnj1441ALT".
-"hbabALT" is used by "nfsab".
 "hbabALT" is used by "nfsabALT".
 "hbae-o" is used by "aev-o".
 "hbae-o" is used by "dral1-o".
@@ -15399,7 +15398,7 @@ New usage of "hatomic" is discouraged (1 uses).
 New usage of "hatomici" is discouraged (6 uses).
 New usage of "hatomistici" is discouraged (1 uses).
 New usage of "hba1-o" is discouraged (8 uses).
-New usage of "hbabALT" is discouraged (3 uses).
+New usage of "hbabALT" is discouraged (2 uses).
 New usage of "hbae-o" is discouraged (4 uses).
 New usage of "hbalg" is discouraged (1 uses).
 New usage of "hbalgVD" is discouraged (0 uses).
