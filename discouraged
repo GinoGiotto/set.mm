@@ -3194,11 +3194,6 @@
 "cbvalv" is used by "cdeqal1".
 "cbveu" is used by "cbvreu".
 "cbveu" is used by "cbvreucsf".
-"cbveuw" is used by "cbvreuw".
-"cbveuw" is used by "climeu".
-"cbveuw" is used by "f1ompt".
-"cbveuw" is used by "initoeu2".
-"cbveuw" is used by "tz6.12f".
 "cbvex" is used by "cbveuALT".
 "cbvex" is used by "cbvexv".
 "cbvex" is used by "sb8e".
@@ -14905,7 +14900,7 @@ New usage of "cbvalvOLD" is discouraged (0 uses).
 New usage of "cbvcsb" is discouraged (0 uses).
 New usage of "cbveu" is discouraged (2 uses).
 New usage of "cbveuALT" is discouraged (0 uses).
-New usage of "cbveuw" is discouraged (5 uses).
+New usage of "cbveuwOLD" is discouraged (0 uses).
 New usage of "cbvex" is discouraged (3 uses).
 New usage of "cbvex2" is discouraged (0 uses).
 New usage of "cbvex2vv" is discouraged (1 uses).
@@ -19275,7 +19270,7 @@ Proof modification of "cbval2OLD" is discouraged (85 steps).
 Proof modification of "cbval2vOLD" is discouraged (85 steps).
 Proof modification of "cbvalvOLD" is discouraged (53 steps).
 Proof modification of "cbveuALT" is discouraged (48 steps).
-Proof modification of "cbveuw" is discouraged (48 steps).
+Proof modification of "cbveuwOLD" is discouraged (29 steps).
 Proof modification of "cbvexsv" is discouraged (29 steps).
 Proof modification of "cbvexvOLD" is discouraged (38 steps).
 Proof modification of "cbvmowOLD" is discouraged (62 steps).
