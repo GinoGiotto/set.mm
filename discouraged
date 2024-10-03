@@ -17976,6 +17976,7 @@ New usage of "pmodN" is discouraged (0 uses).
 New usage of "pmodl42N" is discouraged (1 uses).
 New usage of "pn0sr" is discouraged (4 uses).
 New usage of "pnonsingN" is discouraged (3 uses).
+New usage of "poclOLD" is discouraged (0 uses).
 New usage of "pointpsubN" is discouraged (0 uses).
 New usage of "pointsetN" is discouraged (1 uses).
 New usage of "pol0N" is discouraged (6 uses).
@@ -20119,6 +20120,7 @@ Proof modification of "pm2.21ddALT" is discouraged (10 steps).
 Proof modification of "pm2.43bgbi" is discouraged (16 steps).
 Proof modification of "pm2.43cbi" is discouraged (34 steps).
 Proof modification of "pm2.61iOLD" is discouraged (13 steps).
+Proof modification of "poclOLD" is discouraged (270 steps).
 Proof modification of "preleqALT" is discouraged (115 steps).
 Proof modification of "prmdvdssqOLD" is discouraged (62 steps).
 Proof modification of "prmgaplcm" is discouraged (247 steps).
