@@ -18294,6 +18294,7 @@ New usage of "sbciedOLD" is discouraged (0 uses).
 New usage of "sbciegOLD" is discouraged (0 uses).
 New usage of "sbcim2g" is discouraged (2 uses).
 New usage of "sbcim2gVD" is discouraged (0 uses).
+New usage of "sbcimdvOLD" is discouraged (0 uses).
 New usage of "sbcnestg" is discouraged (1 uses).
 New usage of "sbcnestgf" is discouraged (2 uses).
 New usage of "sbco" is discouraged (2 uses).
@@ -20284,6 +20285,7 @@ Proof modification of "sbciedOLD" is discouraged (16 steps).
 Proof modification of "sbciegOLD" is discouraged (10 steps).
 Proof modification of "sbcim2g" is discouraged (83 steps).
 Proof modification of "sbcim2gVD" is discouraged (139 steps).
+Proof modification of "sbcimdvOLD" is discouraged (52 steps).
 Proof modification of "sbcoreleleq" is discouraged (91 steps).
 Proof modification of "sbcoreleleqVD" is discouraged (176 steps).
 Proof modification of "sbcrexgOLD" is discouraged (77 steps).
