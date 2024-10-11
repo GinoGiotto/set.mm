@@ -18290,6 +18290,7 @@ New usage of "sbcbiVD" is discouraged (0 uses).
 New usage of "sbcbidvOLD" is discouraged (0 uses).
 New usage of "sbcco" is discouraged (3 uses).
 New usage of "sbcco3g" is discouraged (0 uses).
+New usage of "sbcgOLD" is discouraged (0 uses).
 New usage of "sbciedOLD" is discouraged (0 uses).
 New usage of "sbciegOLD" is discouraged (0 uses).
 New usage of "sbcim2g" is discouraged (2 uses).
@@ -20281,6 +20282,7 @@ Proof modification of "sbcbi" is discouraged (33 steps).
 Proof modification of "sbcbi2OLD" is discouraged (16 steps).
 Proof modification of "sbcbiVD" is discouraged (59 steps).
 Proof modification of "sbcbidvOLD" is discouraged (10 steps).
+Proof modification of "sbcgOLD" is discouraged (8 steps).
 Proof modification of "sbciedOLD" is discouraged (16 steps).
 Proof modification of "sbciegOLD" is discouraged (10 steps).
 Proof modification of "sbcim2g" is discouraged (83 steps).
