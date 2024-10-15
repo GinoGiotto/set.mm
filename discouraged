@@ -15292,8 +15292,10 @@ New usage of "csb0OLD" is discouraged (0 uses).
 New usage of "csbcnvgALT" is discouraged (0 uses).
 New usage of "csbco" is discouraged (1 uses).
 New usage of "csbco3g" is discouraged (0 uses).
+New usage of "csbconstgOLD" is discouraged (0 uses).
 New usage of "csbeq2gVD" is discouraged (0 uses).
 New usage of "csbfv12gALTVD" is discouraged (0 uses).
+New usage of "csbieOLD" is discouraged (0 uses).
 New usage of "csbima12gALTVD" is discouraged (0 uses).
 New usage of "csbingVD" is discouraged (0 uses).
 New usage of "csbnestg" is discouraged (1 uses).
@@ -19307,8 +19309,10 @@ Proof modification of "conventions-labels" is discouraged (1 steps).
 Proof modification of "copsex2gOLD" is discouraged (119 steps).
 Proof modification of "csb0OLD" is discouraged (19 steps).
 Proof modification of "csbcnvgALT" is discouraged (112 steps).
+Proof modification of "csbconstgOLD" is discouraged (8 steps).
 Proof modification of "csbeq2gVD" is discouraged (61 steps).
 Proof modification of "csbfv12gALTVD" is discouraged (322 steps).
+Proof modification of "csbieOLD" is discouraged (10 steps).
 Proof modification of "csbima12gALTVD" is discouraged (148 steps).
 Proof modification of "csbingVD" is discouraged (256 steps).
 Proof modification of "csbopabgALT" is discouraged (85 steps).
