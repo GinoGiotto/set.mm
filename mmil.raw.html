@@ -6383,8 +6383,28 @@ a fintely supported function.</TD>
 <TD>~ deccl </TD>
 </TR>
 
+<tr>
+  <td>uzwo</td>
+  <td>~ uzwodc</td>
+</tr>
+
+<tr>
+  <td>nnwo</td>
+  <td>~ nnwodc</td>
+</tr>
+
+<tr>
+  <td>nnwof</td>
+  <td>~ nnwofdc</td>
+</tr>
+
+<tr>
+  <td>nnwos</td>
+  <td>~ nnwosdc</td>
+</tr>
+
 <TR>
-<TD>uzwo , uzwo2 , nnwo , nnwof , nnwos</TD>
+<TD>uzwo2</TD>
 <TD><I>none</I></TD>
 <TD>Presumably would imply excluded middle, unless there is something
 which makes this different from ~ nnregexmid .</TD>
@@ -6494,7 +6514,7 @@ numbers).</TD>
 
 <TR>
 <TD>xrletri</TD>
-<TD><I>none</I></TD>
+<TD>~ xnn0letri</TD>
 </TR>
 
 <tr>
@@ -9529,16 +9549,12 @@ intuitionistic and it is lightly used in set.mm</TD>
 </TR>
 
 <TR>
-  <TD>isprm5</TD>
-  <TD><I>none</I></TD>
-  <TD>Presumably provable, but the set.mm proof relies on excluded
-  middle in multiple places.</TD>
-</TR>
-
-<TR>
   <TD>isprm7</TD>
   <TD><I>none</I></TD>
-  <TD>The set.mm proof relies on isprm5</TD>
+  <TD>Presumably provable but likely to need further
+  development of the floor function for irrational
+  numbers (as seen in ~ flapcl and presumably similar
+  theorems which could be proved).</TD>
 </TR>
 
 <TR>
@@ -9575,6 +9591,17 @@ intuitionistic and it is lightly used in set.mm</TD>
 <tr>
   <td>pclem</td>
   <td>~ pclem0 , ~ pclemub , ~ pclemdc</td>
+</tr>
+
+<tr>
+  <td id="missing-pcadd2">pcadd2</td>
+  <td>~ pcadd</td>
+  <td>the set.mm proof uses xrltnle</td>
+</tr>
+
+<tr>
+  <td>sumhash</td>
+  <td>~ sumhashdc</td>
 </tr>
 
 <tr>
@@ -12391,14 +12418,6 @@ proved in set.mm but not iset.mm:</p>
   </tr>
 
   <tr>
-    <td>11.  The Infinitude of Primes</td>
-    <td>Apparently would not be difficult. Note that
-    set.mm has infpn , infpn2 , prminf , and perhaps other
-    forms. Some of them are connected by unben - we should
-    be able to show primality is decidable and use ~ unbendc .</td>
-  </tr>
-
-  <tr>
     <td>14.  Summation of ` sum_ k e. NN ( k ^ -u 2 ) `</td>
     <td>Needs a closer look at the set.mm proof but we
     do have ~ climsqz for whatever that is worth</td>
@@ -12624,7 +12643,8 @@ of Transcendental Numbers</td>
   <tr>
     <td>72.  Sylow's Theorem</td>
     <td>There's a lot of group theory to develop
-    to get to this point.</td>
+    to get to this point.  The set.mm proof of sylow1
+    uses <a href="#missing-pcadd2">pcadd2</a></td>
   </tr>
 
   <tr>
