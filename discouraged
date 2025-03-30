@@ -998,6 +998,7 @@
 "ax-addf" is used by "cnidOLD".
 "ax-addf" is used by "cnnv".
 "ax-addf" is used by "cnnvba".
+"ax-addf" is used by "gg-dfcnfld".
 "ax-addf" is used by "itg1addlem4".
 "ax-addf" is used by "itg1addlem4OLD".
 "ax-addf" is used by "raddcn".
@@ -1437,6 +1438,7 @@
 "ax-mulf" is used by "cncvcOLD".
 "ax-mulf" is used by "dvdsmulf1o".
 "ax-mulf" is used by "fsumdvdsmul".
+"ax-mulf" is used by "gg-dfcnfld".
 "ax-mulf" is used by "iimulcn".
 "ax-mulf" is used by "mulcn".
 "ax-mulf" is used by "mulex".
@@ -4736,6 +4738,7 @@
 "df-cnfld" is used by "cnfldtset".
 "df-cnfld" is used by "cnfldunif".
 "df-cnfld" is used by "gg-cnfldex".
+"df-cnfld" is used by "gg-dfcnfld".
 "df-cnfn" is used by "elcnfn".
 "df-cnfn" is used by "hhcnf".
 "df-cnop" is used by "elcnop".
@@ -14581,7 +14584,7 @@ New usage of "ax-9" is discouraged (1 uses).
 New usage of "ax-ac" is discouraged (2 uses).
 New usage of "ax-addass" is discouraged (1 uses).
 New usage of "ax-addcl" is discouraged (1 uses).
-New usage of "ax-addf" is discouraged (14 uses).
+New usage of "ax-addf" is discouraged (15 uses).
 New usage of "ax-addrcl" is discouraged (1 uses).
 New usage of "ax-c10" is discouraged (3 uses).
 New usage of "ax-c11" is discouraged (5 uses).
@@ -14633,7 +14636,7 @@ New usage of "ax-luk3" is discouraged (6 uses).
 New usage of "ax-mulass" is discouraged (1 uses).
 New usage of "ax-mulcl" is discouraged (1 uses).
 New usage of "ax-mulcom" is discouraged (1 uses).
-New usage of "ax-mulf" is discouraged (10 uses).
+New usage of "ax-mulf" is discouraged (11 uses).
 New usage of "ax-mulrcl" is discouraged (1 uses).
 New usage of "ax-pre-ltadd" is discouraged (1 uses).
 New usage of "ax-pre-lttri" is discouraged (1 uses).
@@ -15890,7 +15893,7 @@ New usage of "df-ch0" is discouraged (8 uses).
 New usage of "df-chj" is discouraged (1 uses).
 New usage of "df-chsup" is discouraged (1 uses).
 New usage of "df-cm" is discouraged (1 uses).
-New usage of "df-cnfld" is discouraged (14 uses).
+New usage of "df-cnfld" is discouraged (15 uses).
 New usage of "df-cnfn" is discouraged (2 uses).
 New usage of "df-cnop" is discouraged (2 uses).
 New usage of "df-com2" is discouraged (1 uses).
@@ -16769,6 +16772,7 @@ New usage of "genpnnp" is discouraged (1 uses).
 New usage of "genpprecl" is discouraged (8 uses).
 New usage of "genpss" is discouraged (1 uses).
 New usage of "genpv" is discouraged (3 uses).
+New usage of "gg-cnfldfunALT" is discouraged (0 uses).
 New usage of "ggen22" is discouraged (0 uses).
 New usage of "ggen31" is discouraged (2 uses).
 New usage of "ghomidOLD" is discouraged (2 uses).
@@ -20764,6 +20768,7 @@ Proof modification of "gen21" is discouraged (16 steps).
 Proof modification of "gen21nv" is discouraged (18 steps).
 Proof modification of "gen22" is discouraged (23 steps).
 Proof modification of "gen31" is discouraged (19 steps).
+Proof modification of "gg-cnfldfunALT" is discouraged (792 steps).
 Proof modification of "ggen22" is discouraged (13 steps).
 Proof modification of "ggen31" is discouraged (22 steps).
 Proof modification of "ghomidOLD" is discouraged (178 steps).
