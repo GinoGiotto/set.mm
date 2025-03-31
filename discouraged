@@ -5573,6 +5573,7 @@
 "dsndx" is used by "dsndxnplusgndx".
 "dsndx" is used by "dsndxntsetndx".
 "dsndx" is used by "eengstr".
+"dsndx" is used by "gg-cnfldstr".
 "dsndx" is used by "imasvalstr".
 "dsndx" is used by "odrngstr".
 "dsndx" is used by "setsmsdsOLD".
@@ -12163,6 +12164,7 @@
 "plendx" is used by "basendxltplendx".
 "plendx" is used by "cnfldfunALTOLD".
 "plendx" is used by "cnfldstr".
+"plendx" is used by "gg-cnfldstr".
 "plendx" is used by "idlsrgstr".
 "plendx" is used by "imasvalstr".
 "plendx" is used by "ipostr".
@@ -13696,6 +13698,7 @@
 "tsetndx" is used by "cnfldfunALTOLD".
 "tsetndx" is used by "cnfldstr".
 "tsetndx" is used by "dsndxntsetndx".
+"tsetndx" is used by "gg-cnfldstr".
 "tsetndx" is used by "idlsrgstr".
 "tsetndx" is used by "imasvalstr".
 "tsetndx" is used by "indistpsx".
@@ -13731,6 +13734,7 @@
 "unifndx" is used by "basendxltunifndx".
 "unifndx" is used by "cnfldfunALTOLD".
 "unifndx" is used by "cnfldstr".
+"unifndx" is used by "gg-cnfldstr".
 "unifndx" is used by "slotsdifunifndx".
 "unifndx" is used by "tuslemOLD".
 "unifndx" is used by "unifndxnn".
@@ -16249,7 +16253,7 @@ New usage of "drnfc2OLD" is discouraged (0 uses).
 New usage of "drngcatALTV" is discouraged (0 uses).
 New usage of "drngoi" is discouraged (2 uses).
 New usage of "drsb1" is discouraged (3 uses).
-New usage of "dsndx" is discouraged (20 uses).
+New usage of "dsndx" is discouraged (21 uses).
 New usage of "dtruALT" is discouraged (0 uses).
 New usage of "dtruALT2" is discouraged (6 uses).
 New usage of "dtruOLD" is discouraged (0 uses).
@@ -18626,7 +18630,7 @@ New usage of "pl42lem1N" is discouraged (1 uses).
 New usage of "pl42lem2N" is discouraged (1 uses).
 New usage of "pl42lem3N" is discouraged (1 uses).
 New usage of "pl42lem4N" is discouraged (1 uses).
-New usage of "plendx" is discouraged (23 uses).
+New usage of "plendx" is discouraged (24 uses).
 New usage of "plpv" is discouraged (1 uses).
 New usage of "plusgndx" is discouraged (24 uses).
 New usage of "pm10.252" is discouraged (0 uses).
@@ -19417,7 +19421,7 @@ New usage of "trsspwALT2" is discouraged (0 uses).
 New usage of "trsspwALT3" is discouraged (0 uses).
 New usage of "truniALT" is discouraged (0 uses).
 New usage of "truniALTVD" is discouraged (0 uses).
-New usage of "tsetndx" is discouraged (26 uses).
+New usage of "tsetndx" is discouraged (27 uses).
 New usage of "ttgbasOLD" is discouraged (0 uses).
 New usage of "ttgdsOLD" is discouraged (0 uses).
 New usage of "ttglemOLD" is discouraged (4 uses).
@@ -19442,7 +19446,7 @@ New usage of "undomOLD" is discouraged (0 uses).
 New usage of "unfiOLD" is discouraged (0 uses).
 New usage of "unieqOLD" is discouraged (0 uses).
 New usage of "unierri" is discouraged (0 uses).
-New usage of "unifndx" is discouraged (7 uses).
+New usage of "unifndx" is discouraged (8 uses).
 New usage of "uniprOLD" is discouraged (0 uses).
 New usage of "uniprgOLD" is discouraged (0 uses).
 New usage of "unipwr" is discouraged (0 uses).
