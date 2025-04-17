@@ -1446,7 +1446,6 @@
 "ax-mulf" is used by "mulex".
 "ax-mulf" is used by "mulnzcnopr".
 "ax-mulf" is used by "rlimmulOLD".
-"ax-mulf" is used by "rmulccn".
 "ax-mulf" is used by "xrge0pluscn".
 "ax-mulrcl" is used by "remulcl".
 "ax-pre-ltadd" is used by "axltadd".
@@ -14646,7 +14645,7 @@ New usage of "ax-luk3" is discouraged (6 uses).
 New usage of "ax-mulass" is discouraged (1 uses).
 New usage of "ax-mulcl" is discouraged (1 uses).
 New usage of "ax-mulcom" is discouraged (1 uses).
-New usage of "ax-mulf" is discouraged (11 uses).
+New usage of "ax-mulf" is discouraged (10 uses).
 New usage of "ax-mulrcl" is discouraged (1 uses).
 New usage of "ax-pre-ltadd" is discouraged (1 uses).
 New usage of "ax-pre-lttri" is discouraged (1 uses).
