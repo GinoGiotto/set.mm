@@ -995,11 +995,12 @@
 "ax-addf" is used by "cnaddabloOLD".
 "ax-addf" is used by "cncph".
 "ax-addf" is used by "cncvcOLD".
+"ax-addf" is used by "cnfldadd".
+"ax-addf" is used by "cnfldfunALTOLD".
 "ax-addf" is used by "cnfldplusf".
 "ax-addf" is used by "cnidOLD".
 "ax-addf" is used by "cnnv".
 "ax-addf" is used by "cnnvba".
-"ax-addf" is used by "gg-dfcnfld".
 "ax-addf" is used by "itg1addlem4".
 "ax-addf" is used by "itg1addlem4OLD".
 "ax-addf" is used by "raddcn".
@@ -1438,9 +1439,10 @@
 "ax-mulcl" is used by "mulcl".
 "ax-mulcom" is used by "mulcom".
 "ax-mulf" is used by "cncvcOLD".
+"ax-mulf" is used by "cnfldfunALTOLD".
+"ax-mulf" is used by "cnfldmul".
 "ax-mulf" is used by "dvdsmulf1o".
 "ax-mulf" is used by "fsumdvdsmul".
-"ax-mulf" is used by "gg-dfcnfld".
 "ax-mulf" is used by "iimulcnOLD".
 "ax-mulf" is used by "mulcn".
 "ax-mulf" is used by "mulex".
@@ -4726,7 +4728,6 @@
 "df-chsup" is used by "hsupval".
 "df-cm" is used by "cmbr".
 "df-cnfld" is used by "cffldtocusgr".
-"df-cnfld" is used by "cnfldadd".
 "df-cnfld" is used by "cnfldbas".
 "df-cnfld" is used by "cnfldcj".
 "df-cnfld" is used by "cnfldds".
@@ -4734,12 +4735,12 @@
 "df-cnfld" is used by "cnfldfunALT".
 "df-cnfld" is used by "cnfldfunALTOLD".
 "df-cnfld" is used by "cnfldle".
-"df-cnfld" is used by "cnfldmul".
 "df-cnfld" is used by "cnfldstr".
 "df-cnfld" is used by "cnfldtset".
 "df-cnfld" is used by "cnfldunif".
 "df-cnfld" is used by "gg-cnfldex".
-"df-cnfld" is used by "gg-dfcnfld".
+"df-cnfld" is used by "mpocnfldadd".
+"df-cnfld" is used by "mpocnfldmul".
 "df-cnfn" is used by "elcnfn".
 "df-cnfn" is used by "hhcnf".
 "df-cnop" is used by "elcnop".
@@ -5576,7 +5577,6 @@
 "dsndx" is used by "dsndxnplusgndx".
 "dsndx" is used by "dsndxntsetndx".
 "dsndx" is used by "eengstr".
-"dsndx" is used by "gg-cnfldstr".
 "dsndx" is used by "imasvalstr".
 "dsndx" is used by "odrngstr".
 "dsndx" is used by "setsmsdsOLD".
@@ -12168,7 +12168,6 @@
 "plendx" is used by "basendxltplendx".
 "plendx" is used by "cnfldfunALTOLD".
 "plendx" is used by "cnfldstr".
-"plendx" is used by "gg-cnfldstr".
 "plendx" is used by "idlsrgstr".
 "plendx" is used by "imasvalstr".
 "plendx" is used by "ipostr".
@@ -13702,7 +13701,6 @@
 "tsetndx" is used by "cnfldfunALTOLD".
 "tsetndx" is used by "cnfldstr".
 "tsetndx" is used by "dsndxntsetndx".
-"tsetndx" is used by "gg-cnfldstr".
 "tsetndx" is used by "idlsrgstr".
 "tsetndx" is used by "imasvalstr".
 "tsetndx" is used by "indistpsx".
@@ -13738,7 +13736,6 @@
 "unifndx" is used by "basendxltunifndx".
 "unifndx" is used by "cnfldfunALTOLD".
 "unifndx" is used by "cnfldstr".
-"unifndx" is used by "gg-cnfldstr".
 "unifndx" is used by "slotsdifunifndx".
 "unifndx" is used by "tuslemOLD".
 "unifndx" is used by "unifndxnn".
@@ -14592,7 +14589,7 @@ New usage of "ax-9" is discouraged (1 uses).
 New usage of "ax-ac" is discouraged (2 uses).
 New usage of "ax-addass" is discouraged (1 uses).
 New usage of "ax-addcl" is discouraged (1 uses).
-New usage of "ax-addf" is discouraged (15 uses).
+New usage of "ax-addf" is discouraged (16 uses).
 New usage of "ax-addrcl" is discouraged (1 uses).
 New usage of "ax-c10" is discouraged (3 uses).
 New usage of "ax-c11" is discouraged (5 uses).
@@ -14645,7 +14642,7 @@ New usage of "ax-luk3" is discouraged (6 uses).
 New usage of "ax-mulass" is discouraged (1 uses).
 New usage of "ax-mulcl" is discouraged (1 uses).
 New usage of "ax-mulcom" is discouraged (1 uses).
-New usage of "ax-mulf" is discouraged (10 uses).
+New usage of "ax-mulf" is discouraged (11 uses).
 New usage of "ax-mulrcl" is discouraged (1 uses).
 New usage of "ax-pre-ltadd" is discouraged (1 uses).
 New usage of "ax-pre-lttri" is discouraged (1 uses).
@@ -15906,7 +15903,7 @@ New usage of "df-ch0" is discouraged (8 uses).
 New usage of "df-chj" is discouraged (1 uses).
 New usage of "df-chsup" is discouraged (1 uses).
 New usage of "df-cm" is discouraged (1 uses).
-New usage of "df-cnfld" is discouraged (15 uses).
+New usage of "df-cnfld" is discouraged (14 uses).
 New usage of "df-cnfn" is discouraged (2 uses).
 New usage of "df-cnop" is discouraged (2 uses).
 New usage of "df-com2" is discouraged (1 uses).
@@ -16265,7 +16262,7 @@ New usage of "drnfc2OLD" is discouraged (0 uses).
 New usage of "drngcatALTV" is discouraged (0 uses).
 New usage of "drngoi" is discouraged (2 uses).
 New usage of "drsb1" is discouraged (3 uses).
-New usage of "dsndx" is discouraged (21 uses).
+New usage of "dsndx" is discouraged (20 uses).
 New usage of "dtruALT" is discouraged (0 uses).
 New usage of "dtruALT2" is discouraged (6 uses).
 New usage of "dtruOLD" is discouraged (0 uses).
@@ -16794,7 +16791,6 @@ New usage of "genpnnp" is discouraged (1 uses).
 New usage of "genpprecl" is discouraged (8 uses).
 New usage of "genpss" is discouraged (1 uses).
 New usage of "genpv" is discouraged (3 uses).
-New usage of "gg-cnfldfunALT" is discouraged (0 uses).
 New usage of "ggen22" is discouraged (0 uses).
 New usage of "ggen31" is discouraged (2 uses).
 New usage of "ghomidOLD" is discouraged (2 uses).
@@ -18657,7 +18653,7 @@ New usage of "pl42lem1N" is discouraged (1 uses).
 New usage of "pl42lem2N" is discouraged (1 uses).
 New usage of "pl42lem3N" is discouraged (1 uses).
 New usage of "pl42lem4N" is discouraged (1 uses).
-New usage of "plendx" is discouraged (24 uses).
+New usage of "plendx" is discouraged (23 uses).
 New usage of "plpv" is discouraged (1 uses).
 New usage of "plusgndx" is discouraged (24 uses).
 New usage of "ply1scl0OLD" is discouraged (0 uses).
@@ -19458,7 +19454,7 @@ New usage of "trsspwALT2" is discouraged (0 uses).
 New usage of "trsspwALT3" is discouraged (0 uses).
 New usage of "truniALT" is discouraged (0 uses).
 New usage of "truniALTVD" is discouraged (0 uses).
-New usage of "tsetndx" is discouraged (27 uses).
+New usage of "tsetndx" is discouraged (26 uses).
 New usage of "ttgbasOLD" is discouraged (0 uses).
 New usage of "ttgdsOLD" is discouraged (0 uses).
 New usage of "ttglemOLD" is discouraged (4 uses).
@@ -19484,7 +19480,7 @@ New usage of "undomOLD" is discouraged (0 uses).
 New usage of "unfiOLD" is discouraged (0 uses).
 New usage of "unieqOLD" is discouraged (0 uses).
 New usage of "unierri" is discouraged (0 uses).
-New usage of "unifndx" is discouraged (8 uses).
+New usage of "unifndx" is discouraged (7 uses).
 New usage of "uniprOLD" is discouraged (0 uses).
 New usage of "uniprgOLD" is discouraged (0 uses).
 New usage of "unipwr" is discouraged (0 uses).
@@ -20204,8 +20200,8 @@ Proof modification of "cnaddabloOLD" is discouraged (65 steps).
 Proof modification of "cnaddcom" is discouraged (71 steps).
 Proof modification of "cncvcOLD" is discouraged (38 steps).
 Proof modification of "cnexALT" is discouraged (52 steps).
-Proof modification of "cnfldfunALT" is discouraged (768 steps).
-Proof modification of "cnfldfunALTOLD" is discouraged (1101 steps).
+Proof modification of "cnfldfunALT" is discouraged (792 steps).
+Proof modification of "cnfldfunALTOLD" is discouraged (1233 steps).
 Proof modification of "cnidOLD" is discouraged (118 steps).
 Proof modification of "cnncvsabsnegdemo" is discouraged (74 steps).
 Proof modification of "cnncvsaddassdemo" is discouraged (46 steps).
@@ -20821,7 +20817,6 @@ Proof modification of "gen21" is discouraged (16 steps).
 Proof modification of "gen21nv" is discouraged (18 steps).
 Proof modification of "gen22" is discouraged (23 steps).
 Proof modification of "gen31" is discouraged (19 steps).
-Proof modification of "gg-cnfldfunALT" is discouraged (792 steps).
 Proof modification of "ggen22" is discouraged (13 steps).
 Proof modification of "ggen31" is discouraged (22 steps).
 Proof modification of "ghomidOLD" is discouraged (178 steps).
