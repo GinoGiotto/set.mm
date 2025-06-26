@@ -30,6 +30,23 @@ on: [push, pull_request, workflow_dispatch]
 # NOTE: We generally install programs in $HOME/bin, so ensure that's on the
 # PATH (usually it is on any non-Windows system).
 
+jobs:
+  ###########################################################
+  skip_dups:
+    name: Check for duplicate jobs to avoid duplication
+    # continue-on-error: true # Uncomment once integration is finished
+    runs-on: ubuntu-latest
+    # Map a step output to a job output
+    outputs:
+      should_skip: ${{ steps.skip_check.outputs.should_skip }}
+    steps:
+      - id: skip_check
+        uses: fkirc/skip-duplicate-actions@master
+        with:
+          github_token: ${{ github.token }}
+          paths_ignore: '["**/README.md", "**/docs/**"]'
+
+  ###########################################################
   mmj2:
     name: Verify using mmj2 (Java verifier by Mel L. O'Cat and Mario Carneiro)
     runs-on: ubuntu-latest
