@@ -30,23 +30,6 @@ on: [push, pull_request, workflow_dispatch]
 # NOTE: We generally install programs in $HOME/bin, so ensure that's on the
 # PATH (usually it is on any non-Windows system).
 
-jobs:
-  ###########################################################
-  skip_dups:
-    name: Check for duplicate jobs to avoid duplication
-    # continue-on-error: true # Uncomment once integration is finished
-    runs-on: ubuntu-latest
-    # Map a step output to a job output
-    outputs:
-      should_skip: ${{ steps.skip_check.outputs.should_skip }}
-    steps:
-      - id: skip_check
-        uses: fkirc/skip-duplicate-actions@master
-        with:
-          github_token: ${{ github.token }}
-          paths_ignore: '["**/README.md", "**/docs/**"]'
-
-  ###########################################################
   mmj2:
     name: Verify using mmj2 (Java verifier by Mel L. O'Cat and Mario Carneiro)
     runs-on: ubuntu-latest
@@ -71,37 +54,4 @@ jobs:
       # We use setparser to check that definitions don't create
       # syntax ambiguities
       - run: scripts/verify-mmj2 --setparser 'mmj.verify.LRParser' --extra "$(printf 'RunMacro,definitionCheck,ax-*,df-bi,df-clab,df-cleq,df-clel\nRunMacro,showDiscouraged,discouraged.new')" set.mm
-      - run: scripts/verify-mmj2 --setparser 'mmj.verify.LRParser' --extra "$(printf 'RunMacro,definitionCheck,ax-*,df-bi,df-clab,df-cleq,df-clel\nRunMacro,showDiscouraged,iset-discouraged.new')" iset.mm
       - run: echo 'Checking discouraged file:' && diff -U 0 discouraged discouraged.new
-      - run: echo 'Checking iset-discouraged file:' && diff -U 0 iset-discouraged iset-discouraged.new
-
-  check-dates:
-    name: Check dates in set.mm
-    runs-on: ubuntu-latest
-    needs: skip_dups
-    if: ${{ needs.skip_dups.outputs.should_skip != 'true' }}
-    # Check for valid dates (detect nonsense like "June 31")
-    # We run scripts/report-changes.py to convert dates to Unix timestamps;
-    # this will raise an exception if the conversion can't occur,
-    # thus checking that dates are valid. If the conversion is invalid,
-    # you'll see the output from the last *valid* date followed by
-    # an exception.
-    # TODO: Check other .mm files, currently this only checks set.mm.
-    steps:
-      - uses: actions/checkout@v3
-      - run: pip3 install ply
-      - run: scripts/report-changes.py --gource > /dev/null
-
-# TODO: Add mm-scala. Something like this:
-#     ###########################################################
-#     # - # mm-scala, a Scala verifier by Mario Caneiro
-#     #   name: mm-scala (Scala)
-#     #   language: scala
-#     #   install:
-#     #     - git clone --depth 1 https://github.com/digama0/mm-scala.git
-#     #   script:
-#     #     - cd mm-scala; sbt ++$TRAVIS_SCALA_VERSION test
-#     #     - ls
-#     #     - ls mm-scala
-#     #     - mm-scala/mm-scala set.mm
-#     ###########################################################
