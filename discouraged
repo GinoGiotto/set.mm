@@ -18898,6 +18898,7 @@ New usage of "prn0" is discouraged (8 uses).
 New usage of "prnmadd" is discouraged (2 uses).
 New usage of "prnmax" is discouraged (7 uses).
 New usage of "probfinmeasbALTV" is discouraged (0 uses).
+New usage of "prodeq2sdvOLD" is discouraged (0 uses).
 New usage of "prpssnq" is discouraged (8 uses).
 New usage of "prstchom2ALT" is discouraged (0 uses).
 New usage of "prstchomval" is discouraged (3 uses).
@@ -21431,6 +21432,7 @@ Proof modification of "problem2" is discouraged (104 steps).
 Proof modification of "problem3" is discouraged (56 steps).
 Proof modification of "problem4" is discouraged (310 steps).
 Proof modification of "problem5" is discouraged (133 steps).
+Proof modification of "prodeq2sdvOLD" is discouraged (16 steps).
 Proof modification of "prstchom2ALT" is discouraged (121 steps).
 Proof modification of "prstclevalOLD" is discouraged (86 steps).
 Proof modification of "prstcocvalOLD" is discouraged (88 steps).
