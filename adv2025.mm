@@ -300,7 +300,12 @@ ${
 $}
 
 $( Day 25a.  Lemma for ~ puzzle . $)
-puzzlelem $p |- ( [.] ( [.] ( ph -> [.] ph ) -> ph ) -> []. ( ph -> [.] ph ) ) $= ? $.
+puzzlelem $p |- ( [.] ( [.] ( ph -> [.] ph ) -> ph ) -> []. ( ph -> [.] ph ) ) $=
+  ( cdbox wi cbox wa df-dbox biimpi axk4 dbimp1 ax-distrb syl5 monrule simplbi2
+  id imim2i 3syl adantr ax-gl ) AABZCZBZACZBZUBDZUBEZTDZTCZDZUFUCUEUBFGUDUHUBUD
+  UDDUFADZCZDUHUBHUDUJUFUADUDUITUAUANIUAAJKLUJUGUITUFSUIAAFMOLPQTRP $.
 
 $( Day 25b.  A puzzle from Boolos' book, see p. 164 for a solution. $)
-puzzle $p |- ( [.] ( [.] ( ph -> [.] ph ) -> ph ) -> ph ) $= ? $.
+puzzle $p |- ( [.] ( [.] ( ph -> [.] ph ) -> ph ) -> ph ) $=
+  ( cdbox wi cbox puzzlelem df-dbox wa biimtrrid expd peirce syl6 simplbiim mpd
+  id ) AABZCZBZACZBZPDZAAESRDRTACRFRTPACARTPATPGQRAPFRNHIAOJKLM $.
